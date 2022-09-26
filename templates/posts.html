@@ -3,7 +3,7 @@
 <section class="content">
   <section class="post_form">
     <div class="first-post">
-      <img src="{% static 'img/twitter_img.png' '%}" alt="" class="twitter_image">
+      <img src="{% static 'img/twitter_img.svg' '%}" alt="" class="twitter_image">
       <h1 class="heading">Home</h1>
     </div>
       <form action="/" method="POST" enctype="multipart/form-data">
@@ -11,7 +11,7 @@
         <input type="text" name="name" placeholder="Name" required>
         <textarea name="body" placeholder="Tell us anything" required></textarea>
         <input type="file" name="image">
-        <input type="submit" value="Tweet">
+        <input type="submit" value="Tweet" id="tweet">
       </form>
   </section>
   <section class="posts">

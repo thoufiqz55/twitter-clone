@@ -2,7 +2,7 @@
 Common
 */
 body {
-    background-color: cadetblue;
+    background-color: aliceblue;
 }
 p {
     font-size: 2.3vw;
@@ -13,11 +13,11 @@ html, body {
 }
 
 .content {
-    max-width: 53rem;
+    max-width: 40rem;
     height: 100%;
     margin: 0 auto;
-    border-left: 1px solid #ccc;
-    border-right: 1px solid #ccc;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
 
 }
 /*
@@ -33,13 +33,15 @@ Post
     width: 70%;
     margin-bottom: 10px;
     padding: 10px;
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
+    border: none;
 }
 
 .post_form textarea {
     width: 70%;
     padding: 10px;
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
+    border: none;
 }
 
 .posts ul {
@@ -121,6 +123,17 @@ img.twitter_image {
 }
 .first-post {
     display: flex;
+    gap: 1rem;
+}
+
+#tweet{
+    background-color: black;
+    color: white;
+}
+
+#tweet:hover{
+    background-color: white;
+    color:black;
 }
 
 .like_count {
